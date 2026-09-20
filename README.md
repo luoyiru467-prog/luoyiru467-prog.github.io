@@ -5,6 +5,7 @@
         <title>木石前盟</title>
     </head>
     <body>
+        <h1>試試你能抽到哪個紅樓夢角色的詩!</h1>
         <button onclick="printArandomPoam()">按下抽取</button>
         <script>
             function getRandomInt(max) {
