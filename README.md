@@ -1,5 +1,4 @@
 # luoyiru467-prog.github.io
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
