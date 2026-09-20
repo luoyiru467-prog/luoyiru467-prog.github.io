@@ -1,8 +1,7 @@
-# 木石前盟
+# 其實不只寶黛，其他角色也有喔!
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>木石前盟</title>
     </head>
     <body>
         <h1>試試你能抽到哪個紅樓夢角色的詩!</h1>
