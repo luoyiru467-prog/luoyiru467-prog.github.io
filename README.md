@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
     </head>
     <body>
+        
         <h1>試試你能抽到哪個紅樓夢角色的詩!</h1>
         <button onclick="printArandomPoam()">按下抽取</button>
         <script>
@@ -18,6 +19,7 @@
                 var poam4=["莫謂縞仙能羽化,多情伴我詠黃昏。","欲償白帝憑清潔,不語婷婷日又昏。","獨倚畫欄如有意,清砧怨笛送黃昏。","嬌羞默默同誰訴,倦倚西風夜已昏。","卻喜詩人吟不倦,豈令寂寞度朝昏。","幽情慾向嫦娥訴,無奈虛廊夜色昏。"]
                 var ans=getRandomInt(6)
                 console.log(ans)
+                document.open("text/html","replace");
                 document.write(name[ans])
                 document.write("<br>")
                 document.write(poam1[ans])
@@ -27,6 +29,7 @@
                 document.write(poam3[ans])
                 document.write("<br>")
                 document.write(poam4[ans])
+                 document.close();
             }
             
         </script>
