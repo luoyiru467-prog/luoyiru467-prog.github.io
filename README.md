@@ -4,8 +4,16 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        
-        <h1>試試你能抽到哪個紅樓夢角色的詩!</h1>
+        <style>
+            p{
+                font-size:20px;
+                letter-spacing:1px;
+                color:#743A3A;
+                font-family:DFKai-SB;
+            }
+            
+        </style>
+        <h2>試試你能抽到哪個紅樓夢角色的詩!</h2>
         <button onclick="printArandomPoam()">按下抽取</button>
         <script>
             function getRandomInt(max) {
