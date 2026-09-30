@@ -26,10 +26,10 @@
                 border-radius:8px;
                 color:black;
                 font-family:DFKai-SB;
-                width:50%;
+                width:25%;
                 position: fixed;
-                bottom:20px;
-                right:20px;
+                bottom:5000px;
+                right:5000px;
             }
             h1,h2{ 
                 color:black;
