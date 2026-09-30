@@ -28,8 +28,8 @@
                 font-family:DFKai-SB;
                 width:25%;
                 position: fixed;
-                bottom:75%;
-                right:75%;
+                bottom:70%;
+                right:50%;
             }
             h1,h2{ 
                 color:black;
