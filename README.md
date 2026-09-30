@@ -37,9 +37,8 @@
             }
             .1s{
                  position: fixed;
-                 bottom:650px;
-                 right:1150px;
-                 top:20px;
+                 right:75%;
+                 top:65%;
             }
 
             
