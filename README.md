@@ -5,6 +5,12 @@
     </head>
     <body>
         <style>
+            header h1 a{
+                color:black !important;
+            }
+            header ul {
+                display: none !important;
+            }   
             body{
                 background-color:#935555;
             }
