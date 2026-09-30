@@ -27,6 +27,7 @@
                 color:black;
                 font-family:DFKai-SB;
                 width:50%;
+                position: fixed;
                 bottom:20px;
                 right:20px;
             }
