@@ -29,7 +29,7 @@
                 width:25%;
                 position: fixed;
                 bottom:700px;
-                right:950px;
+                right:1050px;
             }
             h1,h2{ 
                 color:black;
