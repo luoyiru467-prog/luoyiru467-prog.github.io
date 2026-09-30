@@ -19,8 +19,11 @@
                 font-size:20px;
                 border-radius:8px;
                 color:black;
-                
             }
+            h1{
+                color:black;
+            }
+            
 
             
         </style>
