@@ -18,6 +18,7 @@
                 background-color:#FFDAC8;
                 font-size:20px;
                 border-radius:8px;
+                color:white;
                 
             }
 
