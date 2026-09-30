@@ -19,12 +19,11 @@
                 font-size:20px;
                 border-radius:8px;
                 color:black;
+                font-family:DFKai-SB;
             }
-            h1{
+            h1,h2{ 
                 color:black;
-            }
-            title{
-                color:black;
+                font-family:DFKai-SB;
             }
             
 
