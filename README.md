@@ -26,6 +26,7 @@
                 border-radius:8px;
                 color:black;
                 font-family:DFKai-SB;
+                width:50%;
             }
             h1,h2{ 
                 color:black;
