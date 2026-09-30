@@ -5,12 +5,22 @@
     </head>
     <body>
         <style>
+            head{
+                background-color:#804040;
+            }
             p{
                 font-size:20px;
                 letter-spacing:1px;
                 color:#743A3A;
                 font-family:DFKai-SB;
             }
+            .button{
+                background-color:#FFDAC8;
+                font-size:16px;
+                border-radius:8px;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            }
+
             
         </style>
         <h2>試試你能抽到哪個紅樓夢角色的詩!</h2>
