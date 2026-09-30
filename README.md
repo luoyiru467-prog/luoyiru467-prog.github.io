@@ -11,7 +11,7 @@
             p{
                 font-size:20px;
                 letter-spacing:1px;
-                color:#743A3A;
+                color:#bfc993;
                 font-family:DFKai-SB;
             }
             .button1{
