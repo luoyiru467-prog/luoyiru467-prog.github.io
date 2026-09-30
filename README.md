@@ -27,6 +27,8 @@
                 color:black;
                 font-family:DFKai-SB;
                 width:50%;
+                bottom:20;
+                right:20;
             }
             h1,h2{ 
                 color:black;
