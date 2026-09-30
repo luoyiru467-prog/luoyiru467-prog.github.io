@@ -35,10 +35,10 @@
                 color:black;
                 font-family:DFKai-SB;
             }
-            .1s,.2s,.3s,.4s,.5s{
+            .1s{
                  position: fixed;
-                 bottom:700px;
-                 right:1050px;
+                 bottom:650px;
+                 right:1150px;
             }
 
             
