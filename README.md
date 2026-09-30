@@ -23,6 +23,9 @@
             h1{
                 color:black;
             }
+            title{
+                color:black;
+            }
             
 
             
