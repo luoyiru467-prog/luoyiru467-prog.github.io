@@ -35,7 +35,11 @@
                 color:black;
                 font-family:DFKai-SB;
             }
-            
+            .1s,.2s,.3s,.4s,.5s{
+                 position: fixed;
+                 bottom:700px;
+                 right:1050px;
+            }
 
             
         </style>
