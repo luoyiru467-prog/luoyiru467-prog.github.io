@@ -5,7 +5,7 @@
     </head>
     <body>
         <style>
-            head{
+            body{
                 background-color:#804040;
             }
             p{
@@ -14,7 +14,7 @@
                 color:#743A3A;
                 font-family:DFKai-SB;
             }
-            .button{
+            .button1{
                 background-color:#FFDAC8;
                 font-size:16px;
                 border-radius:8px;
@@ -24,7 +24,7 @@
             
         </style>
         <h2>試試你能抽到哪個紅樓夢角色的詩!</h2>
-        <button onclick="printArandomPoam()">按下抽取</button>
+        <button class=“button1” onclick="printArandomPoam()">按下抽取</button>
         <script>
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
