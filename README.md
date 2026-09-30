@@ -39,6 +39,7 @@
                  position: fixed;
                  bottom:650px;
                  right:1150px;
+                 top:20px;
             }
 
             
