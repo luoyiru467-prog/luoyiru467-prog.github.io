@@ -27,9 +27,9 @@
                 color:black;
                 font-family:DFKai-SB;
                 width:25%;
-                position: fixed;
+                /*position: fixed;
                 bottom:700px;
-                right:1050px;
+                right:1050px;*/
             }
             h1,h2{ 
                 color:black;
