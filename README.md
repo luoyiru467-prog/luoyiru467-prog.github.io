@@ -36,23 +36,23 @@
                 color:black;
                 font-family:DFKai-SB;
             }
-            .1s{
+            .1b{
                  right:75%;
                  bottom:65%;
             }
-            .2s{
+            .2b{
                  right:75%;
                  bottom:55%;
             }
-            .3s{
+            .3b{
                  right:75%;
                  bottom:45%;
             }
-            .4s{
+            .4b{
                  right:75%;
                  bottom:35%;
             }
-            .5s{
+            .5b{
                  right:75%;
                  bottom:25%;
             }
@@ -83,10 +83,11 @@
             }
             
         </script>
-        <p class="1s"><span id="1s"></span></p>
-        <p class="2s"><span id="2s"></span></p>
-        <p class="3s"><span id="3s"></span></p>
-        <p class="4s"><span id="4s"></span></p>
-        <p class="5s"><span id="5s"></span></p>
+        <p class="1b"><span id="1s"></span></p>
+        <p class="2b"><span id="2s"></span></p>
+        <p class="3b"><span id="3s"></span></p>
+        <p class="4b"><span id="4s"></span></p>
+        <p class="5b"><span id="5s"></span></p>
+        <img src="https://drive.google.com/uc?export=view&id=1YSJ3-zc6oNgddXTfUVeihfGunxIG0utP">
     </body>
 </html>
