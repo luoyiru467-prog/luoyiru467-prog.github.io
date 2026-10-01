@@ -40,6 +40,23 @@
                  right:75%;
                  top:65%;
             }
+            .2s{
+                 right:75%;
+                 top:55%;
+            }
+            .3s{
+                 right:75%;
+                 top:45%;
+            }
+            .4s{
+                 right:75%;
+                 top:35%;
+            }
+            .5s{
+                 right:75%;
+                 top:25%;
+            }
+            
 
             
         </style>
