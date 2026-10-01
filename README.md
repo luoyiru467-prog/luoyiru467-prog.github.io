@@ -43,6 +43,7 @@
             h2{ 
                 color:black;
                 font-family:DFKai-SB;
+                margin-top:100px;
             }
             .s1{
                 right:65%;
@@ -102,6 +103,6 @@
         <p class="s3"><span id="3s"></span></p>
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
-        <img src="a.jpg">
+        <img src="a.pdf">
     </body>
 </html>
