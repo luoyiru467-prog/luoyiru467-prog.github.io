@@ -43,6 +43,8 @@
             h2{ 
                 color:black;
                 font-family:DFKai-SB;
+                display:flex;
+                justify-content:center;
                 margin-top:100px;
             }
             .s1{
