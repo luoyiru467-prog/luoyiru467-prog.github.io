@@ -36,23 +36,23 @@
                 color:black;
                 font-family:DFKai-SB;
             }
-            .1b{
+            .s1{
                  right:75%;
                  bottom:65%;
             }
-            .2b{
+            .s2{
                  right:75%;
                  bottom:55%;
             }
-            .3b{
+            .s3{
                  right:75%;
                  bottom:45%;
             }
-            .4b{
+            .s4{
                  right:75%;
                  bottom:35%;
             }
-            .5b{
+            .s5{
                  right:75%;
                  bottom:25%;
             }
