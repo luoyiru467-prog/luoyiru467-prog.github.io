@@ -37,30 +37,30 @@
                 font-family:DFKai-SB;
             }
             .s1{
-                right:50%;
-                bottom:65%;
+                right:45%;
+                bottom:60%;
             }
             .s2{
-                right:50%;
-                bottom:55%;
+                right:45%;
+                bottom:50%;
             }
             .s3{
-                right:50%;
-                bottom:45%;
+                right:45%;
+                bottom:40%;
             }
             .s4{
-                right:50%;
-                bottom:35%;
+                right:45%;
+                bottom:30%;
             }
             .s5{
-                right:50%;
-                bottom:25%;
+                right:45%;
+                bottom:20%;
             }
             img{
-                width:100px;
+                width:200px;
                 position:fixed;
                 right:75%;
-                bottom:25%;
+                bottom:50%;
             }
             
 
