@@ -38,23 +38,23 @@
             }
             .1s{
                  right:75%;
-                 top:65%;
+                 bottom:65%;
             }
             .2s{
                  right:75%;
-                 top:75%;
+                 bottom:55%;
             }
             .3s{
                  right:75%;
-                 top:45%;
+                 bottom:45%;
             }
             .4s{
                  right:75%;
-                 top:35%;
+                 bottom:35%;
             }
             .5s{
                  right:75%;
-                 top:25%;
+                 bottom:25%;
             }
             
 
