@@ -88,6 +88,7 @@
         <p class="3b"><span id="3s"></span></p>
         <p class="4b"><span id="4s"></span></p>
         <p class="5b"><span id="5s"></span></p>
-        <img src="https://drive.google.com/uc?export=view&id=1YSJ3-zc6oNgddXTfUVeihfGunxIG0utP">
+        /*<img src="https://drive.google.com/uc?export=view&id=1YSJ3-zc6oNgddXTfUVeihfGunxIG0utP">*/
+        <img src="https://drive.google.com/thumbnail?id=1YSJ3-zc6oNgddXTfUVeihfGunxIG0utP&sz=w1000">
     </body>
 </html>
