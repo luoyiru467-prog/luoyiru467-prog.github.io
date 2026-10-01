@@ -83,12 +83,11 @@
             }
             
         </script>
-        <p class="1b"><span id="1s"></span></p>
-        <p class="2b"><span id="2s"></span></p>
-        <p class="3b"><span id="3s"></span></p>
-        <p class="4b"><span id="4s"></span></p>
-        <p class="5b"><span id="5s"></span></p>
-        /*<img src="https://drive.google.com/uc?export=view&id=1YSJ3-zc6oNgddXTfUVeihfGunxIG0utP">*/
+        <p class="s1"><span id="1s"></span></p>
+        <p class="s2"><span id="2s"></span></p>
+        <p class="s3"><span id="3s"></span></p>
+        <p class="s4"><span id="4s"></span></p>
+        <p class="s5"><span id="5s"></span></p>
         <img src="https://drive.google.com/thumbnail?id=1YSJ3-zc6oNgddXTfUVeihfGunxIG0utP&sz=w1000">
     </body>
 </html>
