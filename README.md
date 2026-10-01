@@ -102,6 +102,6 @@
         <p class="s3"><span id="3s"></span></p>
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
-        <img src="黛玉葬花.jpg">
+        <img src="a.jpg">
     </body>
 </html>
