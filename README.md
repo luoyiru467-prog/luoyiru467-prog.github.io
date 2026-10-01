@@ -32,7 +32,15 @@
                 bottom:70%;
                 right:50%;
             }
-            h1,h2{ 
+            h1{
+                display:flex;
+                justify-content:center;
+                color:black;
+                font-family:DFKai-SB;
+                align-items: flex-start;
+                height: 400px;
+            }
+            h2{ 
                 color:black;
                 font-family:DFKai-SB;
             }
@@ -94,6 +102,6 @@
         <p class="s3"><span id="3s"></span></p>
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
-        <img src="https://drive.google.com/thumbnail?id=1YSJ3-zc6oNgddXTfUVeihfGunxIG0utP&sz=w1000">
+        <img src="黛玉葬花.jpg">
     </body>
 </html>
