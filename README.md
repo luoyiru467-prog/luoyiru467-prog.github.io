@@ -19,6 +19,7 @@
                 letter-spacing:1px;
                 color:#bfc993;
                 font-family:DFKai-SB;
+                position:fixed;
             }
             .button1{
                 background-color:#FFDAC8;
@@ -36,7 +37,6 @@
                 font-family:DFKai-SB;
             }
             .1s{
-                 position: fixed;
                  right:75%;
                  top:65%;
             }
