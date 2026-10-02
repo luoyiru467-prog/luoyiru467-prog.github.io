@@ -38,7 +38,7 @@
                 color:black;
                 font-family:DFKai-SB;
                 align-items: flex-start;
-                height: 400px;
+                height: 40px;
             }
             h2{ 
                 color:black;
