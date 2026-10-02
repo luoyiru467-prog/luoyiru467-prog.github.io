@@ -79,7 +79,7 @@
 
             
         </style>
-        <h2 class="bbb">試試你能抽到哪個紅樓夢角色的詩!</h2>
+        <h2 class="bbb>哪個紅樓夢角色的詩!</h2>
         <button class="button1" onclick="printArandomPoam()">按下抽取</button>
         <script>
             function getRandomInt(max) {
