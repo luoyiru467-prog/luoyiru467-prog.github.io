@@ -47,7 +47,7 @@
             }
             .bbb{
                 justify-content:center;
-                margin-top:100px;
+                margin-top:10px;
             }
             .s1{
                 right:65%;
