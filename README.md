@@ -43,9 +43,9 @@
             h2{ 
                 color:black;
                 font-family:DFKai-SB;
+                display:flex;
             }
             .bbb{
-                display:flex;
                 justify-content:center;
                 margin-top:100px;
             }
