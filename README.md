@@ -89,9 +89,8 @@
                 border-radius:3px;
             }
             .iii{
-                position:fixed;
-                right:25%;
-                bottom:5%;
+                justify-content:center;
+                align-items:center;
                 opacity:0.5;
                 width:40%;
                 z-index: -1;
