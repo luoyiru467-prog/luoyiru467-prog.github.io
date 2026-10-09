@@ -85,10 +85,10 @@
                 bottom:20%;*/
             }
             img{
-                display:flex;
             }
             .iii{
-                justify-content:flex-start;
+                border:sloid;
+                border-radius:3px;
                 width:50%;
             }
 
