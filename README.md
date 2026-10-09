@@ -27,6 +27,7 @@
             .button1{
                 background-color:#FFDAC8;
                 font-size:20px;
+                border:solid;
                 border-radius:8px;
                 color:black;
                 font-family:DFKai-SB;
