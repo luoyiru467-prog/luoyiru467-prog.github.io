@@ -19,7 +19,7 @@
                 letter-spacing:1px;
                 color:#bfc993;
                 font-family:DFKai-SB;
-                position:fixed;
+                display:flex;
             }
             .button1{
                 background-color:#FFDAC8;
@@ -28,9 +28,12 @@
                 color:black;
                 font-family:DFKai-SB;
                 width:25%;
-                position: fixed;
+                display:flex;
+                justify-content:center;
+                margin-top:10px;
+                /*position: fixed;
                 bottom:70%;
-                right:50%;
+                right:50%;*/
             }
             h1{
                 display:flex;
