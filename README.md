@@ -91,8 +91,8 @@
             .iii{
                 position:fixed;
                 right:25%;
-                bottom:10%;
-                opacity:0.5;
+                bottom:5%;
+                /*opacity:0.5;*/
                 width:50%;
                 z-index: -1;
                 padding:0px;
