@@ -95,7 +95,7 @@
                 height: auto;
                 margin: 20px auto;
                 padding: 0;
-                border: 3px solid #935555;
+                border: 0px solid #935555;
                 border-radius: 3px;
             }
 
