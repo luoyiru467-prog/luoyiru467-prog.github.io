@@ -85,13 +85,14 @@
                 bottom:20%;*/
             }
             img{
+                display:flex;
                 border:3px sloid  #935555;
                 border-radius:3px;
             }
             .iii{
                 justify-content:center;
                 align-items:center;
-                opacity:0.5;
+                opacity:1;
                 width:40%;
                 z-index: -1;
                 padding:0px;
