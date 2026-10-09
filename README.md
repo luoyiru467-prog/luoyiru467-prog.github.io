@@ -92,8 +92,8 @@
                 position:fixed;
                 right:25%;
                 bottom:5%;
-                /*opacity:0.5;*/
-                width:50%;
+                opacity:0.5;
+                width:40%;
                 z-index: -1;
                 padding:0px;
             }
