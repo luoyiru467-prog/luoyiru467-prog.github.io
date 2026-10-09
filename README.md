@@ -85,7 +85,7 @@
                 bottom:20%;*/
             }
             img{
-                border:sloid 3px #935555;
+                border:3px sloid  #935555;
                 border-radius:3px;
             }
             .iii{
