@@ -33,6 +33,8 @@
                 font-family:DFKai-SB;
                 justify-content:center;
                 margin-top:10px;
+                margin-left: auto;
+                margin-right: auto;
             }
             h1{
                 display:flex;
