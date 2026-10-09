@@ -30,7 +30,6 @@
                 border-radius:8px;
                 color:black;
                 font-family:DFKai-SB;
-                width:25%;
                 justify-content:center;
                 margin-top:10px;
             }
