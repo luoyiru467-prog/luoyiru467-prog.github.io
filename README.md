@@ -86,7 +86,7 @@
             }
             img{
                 display:flex;
-                border:3px sloid  #935555;
+                border:3px solid  #935555;
                 border-radius:3px;
             }
             .iii{
