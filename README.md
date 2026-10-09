@@ -91,10 +91,11 @@
             .iii{
                 position:fixed;
                 right:25%;
-                bottom:25%;
+                bottom:10%;
                 opacity:0.7;
-                width:25%;
+                width:50%;
                 z-index: -1;
+                padding:0px;
             }
 
             
