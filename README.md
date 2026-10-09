@@ -93,7 +93,8 @@
                 right:25%;
                 bottom:25%;
                 opacity:0.7;
-                width:50%;
+                width:25%;
+                z-index: -1;
             }
 
             
