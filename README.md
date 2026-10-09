@@ -90,12 +90,13 @@
                 border-radius:3px;
             }
             .iii{
-                justify-content:center;
-                align-items:center;
-                opacity:1;
-                width:40%;
-                z-index: -1;
-                padding:0px;
+                display: block;
+                width: 40%;
+                height: auto;
+                margin: 20px auto;
+                padding: 0;
+                border: 3px solid #935555;
+                border-radius: 3px;
             }
 
             
