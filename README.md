@@ -27,6 +27,7 @@
             .button1{
                 background-color:#FFDAC8;
                 font-size:20px;
+                width:25%;
                 border:solid;
                 border-radius:8px;
                 color:black;
@@ -88,7 +89,7 @@
             }
             .iii{
                 justify-content:flex-start;
-                width:25%;
+                width:50%;
             }
 
             
