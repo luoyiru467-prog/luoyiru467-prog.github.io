@@ -21,6 +21,9 @@
                 font-family:DFKai-SB;
                 display:flex;
             }
+            button{
+                display:flex;
+            }
             .button1{
                 background-color:#FFDAC8;
                 font-size:20px;
@@ -28,7 +31,7 @@
                 color:black;
                 font-family:DFKai-SB;
                 width:25%;
-                display:flex;
+                
                 justify-content:center;
                 margin-top:10px;
                 /*position: fixed;
