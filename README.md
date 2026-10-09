@@ -85,10 +85,14 @@
                 bottom:20%;*/
             }
             img{
+                border:sloid 3px gray;
+                border-radius:3px;
             }
             .iii{
-                border:sloid;
-                border-radius:3px;
+                position:fixed;
+                right:25%;
+                bottom:25%;
+                opacity:0.7;
                 width:50%;
             }
 
