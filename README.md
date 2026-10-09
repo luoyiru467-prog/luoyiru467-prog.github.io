@@ -31,12 +31,8 @@
                 color:black;
                 font-family:DFKai-SB;
                 width:25%;
-                
                 justify-content:center;
                 margin-top:10px;
-                /*position: fixed;
-                bottom:70%;
-                right:50%;*/
             }
             h1{
                 display:flex;
@@ -86,13 +82,12 @@
                 bottom:20%;*/
             }
             img{
+                display:flex;
+            }
+            .iii{
                 justify-content:flex-start;
                 width:25%;
-                /*position:fixed;
-                right:70%;
-                bottom:25%;*/
             }
-            
 
             
         </style>
@@ -124,6 +119,6 @@
         <p class="s3"><span id="3s"></span></p>
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
-        <img src="IMG_0497.jpg">
+        <img class="iii" src="IMG_0497.jpg">
     </body>
 </html>
