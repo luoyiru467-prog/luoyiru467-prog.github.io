@@ -1,4 +1,4 @@
-# 其實不只寶黛，其他角色也有喔!
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -101,6 +101,7 @@
 
             
         </style>
+        <h1>和大觀園眾人一起詠白海棠!</h1>
         <h2 class="bbb">試試你能抽到哪個紅樓夢角色的詩!</h2>
         <button class="button1" onclick="printArandomPoam()">按下抽取</button>
         <script>
