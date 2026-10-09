@@ -5,12 +5,12 @@
     </head>
     <body>
         <style>
-            header h1 a{
+            /*header h1 a{
                 color:black !important;
             }
             header ul {
                 display: none !important;
-            }   
+            }*/
             body{
                 background-color:#935555;
             }
@@ -50,30 +50,41 @@
                 margin-top:10px;
             }
             .s1{
-                right:65%;
-                bottom:60%;
+                justify-content:center;
+                margin-top:10px;
+                /*right:65%;
+                bottom:60%;*/
             }
             .s2{
-                right:48%;
-                bottom:50%;
+                justify-content:center;
+                margin-top:10px;
+                /*right:48%;
+                bottom:50%;*/
             }
             .s3{
-                right:48%;
-                bottom:40%;
+                justify-content:center;
+                margin-top:10px;
+                /*right:48%;
+                bottom:40%;*/
             }
             .s4{
-                right:48%;
-                bottom:30%;
+                justify-content:center;
+                margin-top:10px;
+                /*right:48%;
+                bottom:30%;*/
             }
             .s5{
-                right:48%;
-                bottom:20%;
+                justify-content:center;
+                margin-top:10px;
+                /*right:48%;
+                bottom:20%;*/
             }
             img{
-                width:300px;
-                position:fixed;
+                justify-content:flex-start;
+                width:25%;
+                /*position:fixed;
                 right:70%;
-                bottom:25%;
+                bottom:25%;*/
             }
             
 
