@@ -106,7 +106,7 @@
                 border-radius: 3px;
             }*/
             img{
-                width:40%;
+                width:100%;
                 padding: 0;
                 border: 0px solid #935555;
             }
