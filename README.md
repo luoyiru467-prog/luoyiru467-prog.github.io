@@ -105,11 +105,13 @@
                 border: 0px solid #935555;
                 border-radius: 3px;
             }*/
-            .parent{
-                display:flex;
+            img{
                 width:40%;
                 padding: 0;
                 border: 0px solid #935555;
+            }
+            .parent{
+                display:flex;
             }
 
             
