@@ -88,9 +88,9 @@
                 bottom:20%;*/
             }
             img{
-                display:flex;
                 border:3px solid  #935555;
                 border-radius:3px;
+                width: 40%;
             }
             /*.iii{
                 display: block;
