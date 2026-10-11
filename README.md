@@ -49,9 +49,8 @@
             }
             .aaa{
                 display:block;
-                justify-content:center;
+                margin:20px auto;
                 width:100%
-                height: auto;
             }
             .bbb{
                 justify-content:center;
