@@ -47,6 +47,7 @@
                 display:flex;
             }
             .aaa{
+                font-size:28px;
                 display:block;
                 margin:20px auto;
                 width:100%;
