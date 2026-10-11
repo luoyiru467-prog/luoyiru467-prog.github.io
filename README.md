@@ -88,8 +88,6 @@
                 bottom:20%;*/
             }
             img{
-                border:3px solid  #935555;
-                border-radius:3px;
                 width: 40%;
             }
             /*.iii{
@@ -146,10 +144,10 @@
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
         <div>
-            <img src="IMG_0497.png">
+        <img src="IMG_0497.png">
         </div>
         <div>
-            <img src="baoyu1.png">
+        <img src="baoyu1.png">
         </div>
     </body>
 </html>
