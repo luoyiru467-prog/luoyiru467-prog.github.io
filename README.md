@@ -92,7 +92,7 @@
                 border:3px solid  #935555;
                 border-radius:3px;
             }
-            .iii{
+            /*.iii{
                 display: block;
                 width: 40%;
                 height: auto;
@@ -109,6 +109,9 @@
                 padding: 0;
                 border: 0px solid #935555;
                 border-radius: 3px;
+            }*/
+            .div{
+                float:left;
             }
 
             
@@ -142,7 +145,11 @@
         <p class="s3"><span id="3s"></span></p>
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
-        <img class="iii" src="IMG_0497.png">
-        <img class="jjj" src="baoyu1.png">
+        <div>
+            <img src="IMG_0497.png">
+        </div>
+        <div>
+            <img src="baoyu1.png">
+        </div>
     </body>
 </html>
