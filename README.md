@@ -107,6 +107,7 @@
             }*/
             .parent{
                 display:flex;
+                width:40%;
                 padding: 0;
                 border: 0px solid #935555;
             }
