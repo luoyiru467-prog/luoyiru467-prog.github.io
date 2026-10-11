@@ -40,7 +40,6 @@
             h1{
                 color:black;
                 font-family:DFKai-SB;
-                align-items: flex-start;
             }
             h2{ 
                 color:black;
@@ -50,7 +49,8 @@
             .aaa{
                 display:block;
                 margin:20px auto;
-                width:100%
+                width:100%;
+                height:0%;
             }
             .bbb{
                 justify-content:center;
