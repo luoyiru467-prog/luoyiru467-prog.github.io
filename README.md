@@ -47,7 +47,7 @@
                 display:flex;
             }
             .aaa{
-                font-size:28px;
+                font-size:20px;
                 display:block;
                 margin:20px auto;
                 width:100%;
@@ -55,6 +55,7 @@
                 text-align:center;
             }
             .bbb{
+                font-size:18px;
                 justify-content:center;
                 margin-top:10px;
             }
