@@ -101,6 +101,15 @@
                 border: 0px solid #935555;
                 border-radius: 3px;
             }
+            .jjj{
+                display: block;
+                width: 40%;
+                height: auto;
+                margin: 20px auto;
+                padding: 0;
+                border: 0px solid #935555;
+                border-radius: 3px;
+            }
 
             
         </style>
@@ -134,5 +143,6 @@
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
         <img class="iii" src="IMG_0497.png">
+        <img class="jjj" src="baoyu1.png">
     </body>
 </html>
