@@ -50,7 +50,8 @@
                 display:block;
                 margin:20px auto;
                 width:100%;
-                height:0%;
+                height:auto;
+                text-align:center;
             }
             .bbb{
                 justify-content:center;
