@@ -87,9 +87,6 @@
                 /*right:48%;
                 bottom:20%;*/
             }
-            img{
-                width: 40%;
-            }
             /*.iii{
                 display: block;
                 width: 40%;
