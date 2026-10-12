@@ -115,14 +115,12 @@
             .parent{
                 display:flex;
             }
-
-            
         </style>
         <h1 class="aaa">和大觀園眾人一起詠白海棠!</h1>
         <h2 class="bbb">試試你能抽到哪個紅樓夢角色的詩!</h2>
         <form id="myform" method="POST" action="https://formsubmit.co/luoyiru467@gmail.com" enctype="multipart/form-data">
-        請上傳檔案:<input type="file" name="myfile"><br>
-        請上傳圖片:<input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png"><br>
+        敘寫你的故事吧!<input type="text" id="story" name="story"><br>
+        請上傳圖片:<input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png" required><br>
         <input type="submit">
         </form>
         <button class="button1" onclick="printArandomPoam()">按下抽取</button>
@@ -143,9 +141,7 @@
                 document.getElementById("3s").textContent=poam2[ans]
                 document.getElementById("4s").textContent=poam3[ans]
                 document.getElementById("5s").textContent=poam4[ans]
-                
             }
-            
         </script>
         <p class="s1"><span id="1s"></span></p>
         <p class="s2"><span id="2s"></span></p>
