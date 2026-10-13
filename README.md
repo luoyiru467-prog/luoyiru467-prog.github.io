@@ -115,6 +115,10 @@
             .parent{
                 display:flex;
             }
+            #myform{
+                background-color:#FFDAC8;
+                border:3px solid black;
+            }
         </style>
         <h1 class="aaa">和大觀園眾人一起詠白海棠!</h1>
         <h2 class="bbb">試試你能抽到哪個紅樓夢角色的詩!</h2>
