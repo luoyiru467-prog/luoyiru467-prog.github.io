@@ -12,7 +12,7 @@
                 display: none !important;
             }
             body{
-                background-color:#935555;
+                background-color:#A6585E;
             }
             p{
                 font-size:20px;
@@ -116,7 +116,7 @@
                 display:flex;
             }
             #myform{
-                background-color:#bfc993;
+                background-color:#DED376;
                 border:3px solid black;
             }
         </style>
