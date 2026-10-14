@@ -12,7 +12,7 @@
                 display: none !important;
             }
             body{
-                background-color:#A6464D;
+                background-color:#995459;
             }
             p{
                 font-size:20px;
@@ -118,6 +118,14 @@
             #myform{
                 background-color:#E6DE9C;
                 border:3px solid black;
+            }
+            textarea {
+                min-width: 45%;
+                height: 150px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                padding: 10px;
             }
         </style>
         <h1 class="aaa">和大觀園眾人一起詠白海棠!</h1>
