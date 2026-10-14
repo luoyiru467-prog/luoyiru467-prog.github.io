@@ -12,7 +12,7 @@
                 display: none !important;
             }
             body{
-                background-color:#A6585E;
+                background-color:#A6464D;
             }
             p{
                 font-size:20px;
@@ -116,7 +116,7 @@
                 display:flex;
             }
             #myform{
-                background-color:#DED376;
+                background-color:#E6DE9C;
                 border:3px solid black;
             }
         </style>
@@ -124,7 +124,7 @@
         <h2 class="bbb">試試你能抽到哪個紅樓夢角色的詩!</h2>
         <form id="myform" method="POST" action="https://formsubmit.co/luoyiru467@gmail.com" enctype="multipart/form-data">
         班級:<input type="text" id="class" name="class">座號:<input type="text" id="number" name="number">ps:用於紀錄你一共找到了幾個牌子，最多的人會有小禮物喔~(如果確定不想要禮物可以不填)<br>
-        敘寫你的故事吧!<input type="text" id="story" name="story"><br>
+        敘寫你的故事吧!<textarea id="story" name="story" placeholder="Write somthing.."></textarea>
         請上傳圖片:<input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png" required><br>
         <input type="submit">
         </form>
