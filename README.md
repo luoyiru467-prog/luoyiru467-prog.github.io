@@ -149,10 +149,10 @@
                     console.error(error);
                 }
             });
-            /*function logSubmit(event){
+            function logSubmit(event){
                 everSubmit=true;
                 event.preventDefault();
-            }*/
+            }
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
             }
