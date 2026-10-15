@@ -138,6 +138,7 @@
                         }
                     });
                     if (response.ok) {
+                        everSubmit=true;
                         alert("提交成功！");
                         form.reset();
                     } else {
@@ -148,10 +149,10 @@
                     console.error(error);
                 }
             });
-            function logSubmit(event){
+            /*function logSubmit(event){
                 everSubmit=true;
                 event.preventDefault();
-            }
+            }*/
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
             }
