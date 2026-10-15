@@ -126,19 +126,28 @@
             const form=document.getElementById("myform");
             const everSubmit=false;
             form.addEventListener("submit",logSubmit);
-            async function getData() {
-                const url="https://formsubmit.co/luoyiru467@gmail.com";
+            form.addEventListener("submit", async function(event) {
+                event.preventDefault();
+                const formData = new FormData(form);
                 try {
-                    const response = await fetch(url);
-                    if (!response.ok) {
-                        throw new Error(`回應狀態：${response.status}`);
+                    const response = await fetch(form.action, {
+                        method: "POST",
+                        body: formData,
+                        headers: {
+                            "Accept": "application/json"
+                        }
+                    });
+                    if (response.ok) {
+                        alert("提交成功！");
+                        form.reset();
+                    } else {
+                        alert("提交失敗，請再試一次。");
                     }
-                    const result = await response.json();
-                    console.log(result);
                 } catch (error) {
-                    console.error(error.message);
+                    alert("傳送失敗，請檢查網路或服務設定。");
+                    console.error(error);
                 }
-            }
+            });
             function logSubmit(event){
                 everSubmit=true;
                 event.preventDefault();
