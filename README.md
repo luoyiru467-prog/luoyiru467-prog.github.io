@@ -124,8 +124,7 @@
         <button class="button1" onclick="printArandomPoam()">按下抽取</button>
         <script>
             const form=document.getElementById("myform");
-            const everSubmit=false;
-            form.addEventListener("submit",logSubmit);
+            let everSubmit=false;
             form.addEventListener("submit", async function(event) {
                 event.preventDefault();
                 const formData = new FormData(form);
@@ -149,10 +148,6 @@
                     console.error(error);
                 }
             });
-            function logSubmit(event){
-                everSubmit=true;
-                event.preventDefault();
-            }
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
             }
