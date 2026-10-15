@@ -126,6 +126,19 @@
             const form=document.getElementById("myform");
             const everSubmit=false;
             form.addEventListener("submit",logSubmit);
+            async function getData() {
+                const url="https://formsubmit.co/luoyiru467@gmail.com";
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error(`回應狀態：${response.status}`);
+                    }
+                    const result = await response.json();
+                    console.log(result);
+                } catch (error) {
+                    console.error(error.message);
+                }
+            }
             function logSubmit(event){
                 everSubmit=true;
                 event.preventDefault();
