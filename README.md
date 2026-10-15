@@ -89,24 +89,6 @@
                 /*right:48%;
                 bottom:20%;*/
             }
-            /*.iii{
-                display: block;
-                width: 40%;
-                height: auto;
-                margin: 20px auto;
-                padding: 0;
-                border: 0px solid #935555;
-                border-radius: 3px;
-            }
-            .jjj{
-                display: block;
-                width: 40%;
-                height: auto;
-                margin: 20px auto;
-                padding: 0;
-                border: 0px solid #935555;
-                border-radius: 3px;
-            }*/
             img{
                 width:100%;
                 padding: 0;
@@ -118,6 +100,9 @@
             #myform{
                 background-color:#E6DE9C;
                 border:3px solid black;
+            }
+            input{
+                width:10%;
             }
             textarea {
                 min-width: 45%;
@@ -138,6 +123,13 @@
         </form>
         <button class="button1" onclick="printArandomPoam()">按下抽取</button>
         <script>
+            const form=document.getElementById("myform");
+            const everSubmit=false;
+            form.addEventListener("submit",logSubmit);
+            function logSubmit(event){
+                everSubmit=true;
+                event.preventDefault();
+            }
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
             }
@@ -149,11 +141,13 @@
                 var poam4=["莫謂縞仙能羽化,多情伴我詠黃昏。","欲償白帝憑清潔,不語婷婷日又昏。","獨倚畫欄如有意,清砧怨笛送黃昏。","嬌羞默默同誰訴,倦倚西風夜已昏。","卻喜詩人吟不倦,豈令寂寞度朝昏。","幽情慾向嫦娥訴,無奈虛廊夜色昏。"]
                 var ans=getRandomInt(6)
                 console.log(ans)
+                if(everSubmit){
                 document.getElementById("1s").textContent=name[ans]
                 document.getElementById("2s").textContent=poam1[ans]
                 document.getElementById("3s").textContent=poam2[ans]
                 document.getElementById("4s").textContent=poam3[ans]
                 document.getElementById("5s").textContent=poam4[ans]
+                }
             }
         </script>
         <p class="s1"><span id="1s"></span></p>
