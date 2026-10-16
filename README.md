@@ -115,7 +115,8 @@
         </style>
         <h1 class="aaa">和大觀園眾人一起詠白海棠!</h1>
         <h2 class="bbb">試試你能抽到哪個紅樓夢角色的詩!</h2>
-        <form id="myform" method="POST" action="https://formsubmit.co/luoyiru467@gmail.com" enctype="multipart/form-data">
+        <!--https://formsubmit.co/luoyiru467@gmail.com-->
+        <form id="myform" method="POST" action="" enctype="multipart/form-data">
         <label for="class">班級:</label><input type="text" id="class" name="class"><label for="number">座號:</label><input type="text" id="number" name="number">ps:用於紀錄你一共找到了幾個牌子，最多的人會有小禮物喔~(如果確定不想要禮物可以不填)<br>
         <label for="story">敘寫你的故事吧!</label><textarea id="story" name="story" placeholder="Write somthing.."></textarea>
         <label for="profile_pic">請上傳圖片:</label><input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png" required><br>
@@ -127,6 +128,7 @@
             const Class=document.getElementById("class");
             const number=document.getElementById("number");
             const story=document.getElementById("story");
+            const profile_pic=document.getElementById("profile_pic");
             let everSubmit=false;
             /*form.addEventListener("submit", async function(event) {
                 event.preventDefault();
@@ -153,6 +155,7 @@
             });
             */
             fetch("https://formsubmit.co/ajax/luoyiru467@gmail.com", {
+                everSubmit=true;
                 method: "POST",
                 headers: { 
                     'Content-Type': 'application/json',
@@ -161,7 +164,8 @@
                 body: JSON.stringify({
                     class: Class,
                     number:number,
-                    story:story
+                    story:story,
+                    picture:profile_pic
                 })
             })
             .then(response => response.json())
