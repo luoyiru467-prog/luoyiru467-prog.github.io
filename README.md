@@ -159,7 +159,7 @@
                 method: "POST",
                 headers: { 
                     'Content-Type': 'application/x-www-form-urlencoded',
-                    'Accept': 'application/json'
+                    'Accept': 'application/x-www-form-urlencoded'
                 },
                 body: JSON.stringify({
                     class: Class,
