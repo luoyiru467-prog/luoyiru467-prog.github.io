@@ -125,7 +125,7 @@
         <script>
             const form=document.getElementById("myform");
             let everSubmit=false;
-            form.addEventListener("submit", async function(event) {
+            /*form.addEventListener("submit", async function(event) {
                 event.preventDefault();
                 const formData = new FormData(form);
                 try {
@@ -148,6 +148,21 @@
                     console.error(error);
                 }
             });
+            */
+            fetch("https://formsubmit.co/ajax/luoyiru467@gmail.com", {
+                method: "POST",
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: "FormSubmit",
+                    message: "I'm from Devro LABS"
+                })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.log(error));
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
             }
