@@ -124,6 +124,9 @@
         <button class="button1" onclick="printArandomPoam()">按下抽取</button>
         <script>
             const form=document.getElementById("myform");
+            const Class=document.getElementById("class");
+            const number=document.getElementById("number");
+            const story=document.getElementById("story");
             let everSubmit=false;
             /*form.addEventListener("submit", async function(event) {
                 event.preventDefault();
@@ -156,8 +159,9 @@
                     'Accept': 'application/json'
                 },
                 body: JSON.stringify({
-                    name: "FormSubmit",
-                    message: "I'm from Devro LABS"
+                    class: Class,
+                    number:number,
+                    story:story
                 })
             })
             .then(response => response.json())
