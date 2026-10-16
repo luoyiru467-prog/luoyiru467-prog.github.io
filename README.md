@@ -158,7 +158,7 @@
                 everSubmit=true;
                 method: "POST",
                 headers: { 
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'application/x-www-form-urlencoded',
                     'Accept': 'application/json'
                 },
                 body: JSON.stringify({
