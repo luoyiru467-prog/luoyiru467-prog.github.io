@@ -116,6 +116,7 @@
         <h1 class="aaa">和大觀園眾人一起詠白海棠!</h1>
         <h2 class="bbb">試試你能抽到哪個紅樓夢角色的詩!</h2>
         <!--https://formsubmit.co/luoyiru467@gmail.com-->
+        <p id="status" role="status">要先上傳圖片才能抽籤喔~</p>
         <form id="myform" method="POST" action="https://formsubmit.app/f/xqwntvew6f" enctype="multipart/form-data">
         <label for="class">班級:</label><input type="text" id="class" name="class"><label for="number">座號:</label><input type="text" id="number" name="number">ps:用於紀錄你一共找到了幾個牌子，最多的人會有小禮物喔~(如果確定不想要禮物可以不填)<br>
         <label for="story">敘寫你的故事吧!</label><textarea id="story" name="story" placeholder="Write somthing.."></textarea>
@@ -124,8 +125,44 @@
         </form>
         <button class="button1" onclick="printArandomPoam()">按下抽取</button>
         <script>
-            const form=document.getElementById("myform");
-            const Class=document.getElementById("class");
+            const form = document.getElementById("myform");
+            const statusText = document.getElementById("status");
+            const submitBtn = form.querySelector('input[type="submit"]');
+            const drawBtn = document.querySelector(".button1");
+            let everSubmit = false;
+            drawBtn.disabled = true;
+            form.addEventListener("submit", async function(event) {
+                event.preventDefault();
+                if (submitBtn.disabled) return;
+                submitBtn.disabled = true;
+                //statusText.textContent = "投稿傳送中，請稍候……";
+                try {
+                    const formData = new FormData(form);
+                    const response = await fetch(form.action, {
+                        method: "POST",
+                        headers: {
+                            "Accept": "application/json"
+                        },
+                        body: formData
+                    });
+                    const data = await response.json();
+                    if (!response.ok || data.ok !== true) {
+                        throw new Error(
+                            data.error?.message || data.message || "提交失敗"
+                        );
+                    }
+                    everSubmit = true;
+                    drawBtn.disabled = false;
+                    statusText.textContent="上傳成功！可以抽啦！";
+                    form.reset();
+                } catch (error) {
+                    console.error("錯誤：", error);
+                    statusText.textContent="上傳沒有成功，請檢查表單設定或網路後重試";
+                } finally {
+                    submitBtn.disabled = false;
+                }
+            });
+            /*const Class=document.getElementById("class");
             const number=document.getElementById("number");
             const story=document.getElementById("story");
             const profile_pic=document.getElementById("profile_pic");
@@ -136,7 +173,7 @@
                 body: JSON.stringify({ name: "Ada", email: "ada@example.com", message: "Hi!" }),
             });
             const data = await res.json(); // { ok: true, id: "…" } or { ok: false, error: { code, message } }
-            /*form.addEventListener("submit", async function(event) {
+            form.addEventListener("submit", async function(event) {
                 event.preventDefault();
                 const formData = new FormData(form);
                 try {
