@@ -101,6 +101,9 @@
                 background-color:#E6DE9C;
                 border:3px solid black;
             }
+            #status{
+                color:black;
+            }
             input{
                 width:10%;
             }
