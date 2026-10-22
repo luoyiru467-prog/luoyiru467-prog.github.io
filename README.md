@@ -123,9 +123,10 @@
             #profile_pic{
             }
             #submit{
-                border:1px solid #ccc;
+                border:1px solid black;
                 border-radius:2px;
                 background-color:#FFDAC8;
+                color:black;
             }
         </style>
         <h1 class="aaa">留下你改寫他們命運的痕跡吧！</h1>
