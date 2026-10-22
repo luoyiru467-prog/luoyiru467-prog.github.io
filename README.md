@@ -100,6 +100,7 @@
             #myform{
                 background-color:#E6DE9C;
                 border:3px solid black;
+                border-radius:4px;
             }
             #status{
                 color:black;
@@ -107,7 +108,11 @@
             input{
                 width:10%;
             }
+            label{
+                vertical-align:top;
+            }
             textarea {
+                vertical-align:top;
                 min-width: 45%;
                 height: 150px;
                 margin-bottom: 10px;
@@ -116,12 +121,11 @@
                 padding: 10px;
             }
             #profile_pic{
-                border:1px solid #ccc;
-                border-radius:2px;
             }
             #submit{
                 border:1px solid #ccc;
                 border-radius:2px;
+                background-color:#FFDAC8;
             }
         </style>
         <h1 class="aaa">留下你改寫他們命運的痕跡吧！</h1>
