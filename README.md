@@ -239,15 +239,22 @@
                 var poam2=["玉是精神難比潔，雪為肌骨易銷魂。","胭脂洗出秋階影，冰雪招來露砌魂。","出浴太真冰作影，捧心西子玉為魂。","偷來梨蕊三分白，借得梅花一縷魂。","自是霜娥偏愛冷，非關倩女亦離魂。","花因喜潔難尋偶，人為悲秋易斷魂。","堪憐詠絮才。","榴花開處照宮闈。","生於末世運偏消。","襁褓之間父母違。","雲空未必空。","得志便猖狂。","緇衣頓改昔年妝。","都知愛慕此生才。","家亡莫論親。","到頭誰似一盆蘭？","情既相逢必主淫。","枉入紅塵若許年。"]
                 var poam3=["芳心一點嬌無力，倩影三更月有痕。","淡極始知花更艷，愁多焉得玉無痕。","曉風不散愁千點，宿雨還添淚一痕。","月窟仙人縫縞袂，秋閨怨女拭啼痕。","秋陰捧出何方雪，雨漬添來隔宿痕。","玉燭滴幹風裡淚，晶簾隔破月中痕。","玉帶林中掛，","三春爭及初春景，","清明涕送江邊望，","展眼弔斜暉，","可憐金玉質，","金閨花柳質，","可憐秀戶侯門女，","一從二令三人木，","偶因濟村婦，","如冰水好空相妒，","漫言不肖皆榮出，","此係身前身後事，"]
                 var poam4=["莫謂縞仙能羽化，多情伴我詠黃昏。","欲償白帝憑清潔，不語婷婷日又昏。","獨倚畫欄如有意，清砧怨笛送黃昏。","嬌羞默默同誰訴，倦倚西風夜已昏。","卻喜詩人吟不倦，豈令寂寞度朝昏。","幽情慾向嫦娥訴，無奈虛廊夜色昏。","金簪雪裡埋。","虎兕相逢大夢歸。","千里東風一夢遙。","湘江水逝楚雲飛。","終陷淖泥中！","一載赴黃粱。","獨臥青燈古佛旁。","哭向金陵事更哀。","巧得遇恩人。","枉與他人作笑談。","造釁開端實在寧。","倩誰記去作奇傳？"]
-                var ans=getRandomInt(17)
+                var poam19=["好了歌","世人都曉神仙好，唯有功名忘不了；","古今將相在何方？荒塚一堆草沒了。","世人都曉神仙好，只有金銀忘不了；","終朝只恨聚無多，及到多時眼閉了。","世人都曉神仙好，只有嬌妻忘不了；","君生日日說恩情，君死又隨人去了。","世人都曉神仙好，只有兒孫忘不了；","癡心父母古來多，孝順兒孫誰見了！"]
+                var poam20=["飛鳥各投林","為官的，家業凋零；富貴的，金銀散盡；","有恩的，死裡逃生；無情的，分明報應；","欠命的，命己還；欠淚的，淚已盡；","冤冤相報自非輕，分離聚合皆前定。","欲知命短問前生，老來富貴也真僥倖。","看破的，遁入空門；癡迷的，枉送了性命。","好一似食盡鳥投林，","落了片白茫茫大地真乾淨！"]
+                var ans=getRandomInt(20)
                 console.log(ans)
-                if(everSubmit){
-                document.getElementById("1s").textContent=name[ans]
-                document.getElementById("2s").textContent=poam1[ans]
-                document.getElementById("3s").textContent=poam2[ans]
-                document.getElementById("4s").textContent=poam3[ans]
-                document.getElementById("5s").textContent=poam4[ans]
-                }
+                if(ans<19){
+                    if(everSubmit){
+                    document.getElementById("1s").textContent=name[ans]
+                    document.getElementById("2s").textContent=poam1[ans]
+                    document.getElementById("3s").textContent=poam2[ans]
+                    document.getElementById("4s").textContent=poam3[ans]
+                    document.getElementById("5s").textContent=poam4[ans]
+                    }
+                }/*else if(ans==19){
+                    for(let i=0;i<poam19.length;i++){
+                    }
+                }*/
             }
         </script>
         <p class="s1"><span id="1s"></span></p>
