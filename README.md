@@ -89,6 +89,26 @@
                 /*right:48%;
                 bottom:20%;*/
             }
+            .s6{
+                display:none;
+                justify-content:center;
+                margin-top:10px;
+            }
+            .s7{
+                display:none;
+                justify-content:center;
+                margin-top:10px;
+            }
+            .s8{
+                display:none;
+                justify-content:center;
+                margin-top:10px;
+            }
+            .s9{
+                display:none;
+                justify-content:center;
+                margin-top:10px;
+            }
             img{
                 width:100%;
                 padding: 0;
@@ -251,10 +271,33 @@
                     document.getElementById("4s").textContent=poam3[ans]
                     document.getElementById("5s").textContent=poam4[ans]
                     }
-                }/*else if(ans==19){
-                    for(let i=0;i<poam19.length;i++){
-                    }
-                }*/
+                }else if(ans==19){
+                    document.getElementById("6s").style.display="flex"
+                    document.getElementById("7s").style.display="flex"
+                    document.getElementById("8s").style.display="flex"
+                    document.getElementById("9s").style.display="flex"
+                    document.getElementById("1s").textContent=poam19[0]
+                    document.getElementById("2s").textContent=poam19[1]
+                    document.getElementById("3s").textContent=poam19[2]
+                    document.getElementById("4s").textContent=poam19[3]
+                    document.getElementById("5s").textContent=poam19[4]
+                    document.getElementById("6s").textContent=poam19[5]
+                    document.getElementById("7s").textContent=poam19[6]
+                    document.getElementById("8s").textContent=poam19[7]
+                    document.getElementById("9s").textContent=poam19[8]
+                }else if(ans==20){
+                    document.getElementById("6s").style.display="flex"
+                    document.getElementById("7s").style.display="flex"
+                    document.getElementById("8s").style.display="flex"
+                    document.getElementById("1s").textContent=poam20[0]
+                    document.getElementById("2s").textContent=poam20[1]
+                    document.getElementById("3s").textContent=poam20[2]
+                    document.getElementById("4s").textContent=poam20[3]
+                    document.getElementById("5s").textContent=poam20[4]
+                    document.getElementById("6s").textContent=poam20[5]
+                    document.getElementById("7s").textContent=poam20[6]
+                    document.getElementById("8s").textContent=poam20[7]
+                }
             }
         </script>
         <p class="s1"><span id="1s"></span></p>
@@ -262,6 +305,10 @@
         <p class="s3"><span id="3s"></span></p>
         <p class="s4"><span id="4s"></span></p>
         <p class="s5"><span id="5s"></span></p>
+        <p class="s6"><span id="6s"></span></p>
+        <p class="s7"><span id="7s"></span></p>
+        <p class="s8"><span id="8s"></span></p>
+        <p class="s9"><span id="9s"></span></p>
         <div class="parent">
         <div>
         <img src="S__185057304.png">
