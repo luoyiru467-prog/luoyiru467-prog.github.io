@@ -90,22 +90,18 @@
                 bottom:20%;*/
             }
             .s6{
-                display:none;
                 justify-content:center;
                 margin-top:10px;
             }
             .s7{
-                display:none;
                 justify-content:center;
                 margin-top:10px;
             }
             .s8{
-                display:none;
                 justify-content:center;
                 margin-top:10px;
             }
             .s9{
-                display:none;
                 justify-content:center;
                 margin-top:10px;
             }
@@ -260,10 +256,14 @@
                 var poam3=["芳心一點嬌無力，倩影三更月有痕。","淡極始知花更艷，愁多焉得玉無痕。","曉風不散愁千點，宿雨還添淚一痕。","月窟仙人縫縞袂，秋閨怨女拭啼痕。","秋陰捧出何方雪，雨漬添來隔宿痕。","玉燭滴幹風裡淚，晶簾隔破月中痕。","玉帶林中掛，","三春爭及初春景，","清明涕送江邊望，","展眼弔斜暉，","可憐金玉質，","金閨花柳質，","可憐秀戶侯門女，","一從二令三人木，","偶因濟村婦，","如冰水好空相妒，","漫言不肖皆榮出，","此係身前身後事，"]
                 var poam4=["莫謂縞仙能羽化，多情伴我詠黃昏。","欲償白帝憑清潔，不語婷婷日又昏。","獨倚畫欄如有意，清砧怨笛送黃昏。","嬌羞默默同誰訴，倦倚西風夜已昏。","卻喜詩人吟不倦，豈令寂寞度朝昏。","幽情慾向嫦娥訴，無奈虛廊夜色昏。","金簪雪裡埋。","虎兕相逢大夢歸。","千里東風一夢遙。","湘江水逝楚雲飛。","終陷淖泥中！","一載赴黃粱。","獨臥青燈古佛旁。","哭向金陵事更哀。","巧得遇恩人。","枉與他人作笑談。","造釁開端實在寧。","倩誰記去作奇傳？"]
                 var poam19=["好了歌","世人都曉神仙好，唯有功名忘不了；","古今將相在何方？荒塚一堆草沒了。","世人都曉神仙好，只有金銀忘不了；","終朝只恨聚無多，及到多時眼閉了。","世人都曉神仙好，只有嬌妻忘不了；","君生日日說恩情，君死又隨人去了。","世人都曉神仙好，只有兒孫忘不了；","癡心父母古來多，孝順兒孫誰見了！"]
-                var poam20=["飛鳥各投林","為官的，家業凋零；富貴的，金銀散盡；","有恩的，死裡逃生；無情的，分明報應；","欠命的，命己還；欠淚的，淚已盡；","冤冤相報自非輕，分離聚合皆前定。","欲知命短問前生，老來富貴也真僥倖。","看破的，遁入空門；癡迷的，枉送了性命。","好一似食盡鳥投林，","落了片白茫茫大地真乾淨！"]
+                var poam20=["飛鳥各投林","為官的，家業凋零；富貴的，金銀散盡；","有恩的，死裡逃生；無情的，分明報應；","欠命的，命己還；欠淚的，淚已盡；","冤冤相報自非輕，分離聚合皆前定。","欲知命短問前生，老來富貴也真僥倖。","看破的，遁入空門；癡迷的，枉送了性命。","好一似食盡鳥投林，落了片白茫茫大地真乾淨！"]
+                document.getElementById("6s").style.display="none"
+                document.getElementById("7s").style.display="none"
+                document.getElementById("8s").style.display="none"
+                document.getElementById("9s").style.display="none"
                 var ans=getRandomInt(20)
                 console.log(ans)
-                if(ans<19){
+                if(ans<18){
                     if(everSubmit){
                     document.getElementById("1s").textContent=name[ans]
                     document.getElementById("2s").textContent=poam1[ans]
@@ -271,7 +271,7 @@
                     document.getElementById("4s").textContent=poam3[ans]
                     document.getElementById("5s").textContent=poam4[ans]
                     }
-                }else if(ans==19){
+                }else if(ans==18){
                     document.getElementById("6s").style.display="flex"
                     document.getElementById("7s").style.display="flex"
                     document.getElementById("8s").style.display="flex"
@@ -285,7 +285,7 @@
                     document.getElementById("7s").textContent=poam19[6]
                     document.getElementById("8s").textContent=poam19[7]
                     document.getElementById("9s").textContent=poam19[8]
-                }else if(ans==20){
+                }else if(ans==19){
                     document.getElementById("6s").style.display="flex"
                     document.getElementById("7s").style.display="flex"
                     document.getElementById("8s").style.display="flex"
