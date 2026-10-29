@@ -160,6 +160,14 @@
             4. 續寫前緣：活動結束後，我們將收集大家的移動軌跡，重新編纂成一篇全新的《續前緣》故事正式發表。<br>
             5. 找齊所有「十三」位人物的人將會獲得神秘小禮物。
         </form>
+        <div class="parent">
+        <div>
+        <img src="S__185057304.png">
+        </div>
+        <div>
+        <img src="S__185057303.png">
+        </div>
+        </div>
         <!--https://formsubmit.co/luoyiru467@gmail.com-->
         <!--備用:https://formsubmit.app/f/7954fm7gtu-->
         <form id="myform" method="POST" action="https://formsubmit.app/f/xqwntvew6f" enctype="multipart/form-data">
@@ -322,13 +330,6 @@
         <p class="s7"><span id="7s"></span></p>
         <p class="s8"><span id="8s"></span></p>
         <p class="s9"><span id="9s"></span></p>
-        <div class="parent">
-        <div>
-        <img src="S__185057304.png">
-        </div>
-        <div>
-        <img src="S__185057303.png">
-        </div>
-        </div>
+        
     </body>
 </html>
