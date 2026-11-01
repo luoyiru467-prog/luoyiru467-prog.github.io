@@ -18,7 +18,7 @@
                 font-size:20px;
                 letter-spacing:1px;
                 color:#bfc993;
-                font-family:DFKai-SB;
+                font-family:Source Han Serif;
                 display:flex;
             }
             button{
@@ -31,7 +31,7 @@
                 border:solid;
                 border-radius:8px;
                 color:black;
-                font-family:DFKai-SB;
+                font-family:Source Han Serif;
                 justify-content:center;
                 margin-top:10px;
                 margin-left: auto;
@@ -39,11 +39,11 @@
             }
             h1{
                 color:black;
-                font-family:DFKai-SB;
+                font-family:Source Han Serif;
             }
             h2{ 
                 color:black;
-                font-family:DFKai-SB;
+                font-family:Source Han Serif;
                 display:flex;
             }
             .aaa{
@@ -114,11 +114,13 @@
                 display:flex;
             }
             #myform{
+                font-family:Source Han Serif;
                 background-color:#E6DE9C;
                 border:3px solid black;
                 border-radius:4px;
             }
             #announcement{
+                font-family:Source Han Serif;
                 background-color:#E6DE9C;
                 border:3px solid black;
                 border-radius:4px;
