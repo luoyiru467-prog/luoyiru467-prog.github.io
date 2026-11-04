@@ -176,7 +176,7 @@
         <form id="myform" method="POST" action="https://formsubmit.app/f/xqwntvew6f" enctype="multipart/form-data">
         <label for="class">班級:</label><input type="text" id="class" name="class"><label for="number">座號:</label><input type="text" id="number" name="number"><br>ps:用於紀錄你一共找到了幾個牌子，集滿的人會有小禮物喔~(如果確定不想要禮物可以不填)<br>
         <label for="story">敘寫你的故事吧!（非必填）</label><textarea id="story" name="story" placeholder="Write somthing.."></textarea><br>
-        <label for="profile_pic">請上傳圖片:（必填）</label><input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png" required><br>
+        <label for="profile_pic">請上傳圖片:（必填）(僅能接受 jpg/jpeg/png 檔) </label><input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png" required><br>
         <input type="submit" id="submit">
         <p id="status" role="status">要先上傳圖片才能抽籤喔~</p>
         </form>
