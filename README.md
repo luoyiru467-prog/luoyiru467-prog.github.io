@@ -135,7 +135,10 @@
             #status{
                 color:black;
             }
-            input{
+            #class{
+                width:10%;
+            }
+            #number{
                 width:10%;
             }
             label{
