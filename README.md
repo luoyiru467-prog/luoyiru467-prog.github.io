@@ -8,6 +8,10 @@
     </head>
     <body>
         <style>
+            *{
+                font-family:"Noto Serif TC";
+                font-weight:500;
+            }
             header h1 a{
                 color:black !important;
             }
