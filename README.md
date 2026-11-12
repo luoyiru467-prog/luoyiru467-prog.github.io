@@ -229,57 +229,6 @@
                     submitBtn.disabled = false;
                 }
             });
-            /*const Class=document.getElementById("class");
-            const number=document.getElementById("number");
-            const story=document.getElementById("story");
-            const profile_pic=document.getElementById("profile_pic");
-            let everSubmit=false;
-            const res = await fetch("https://formsubmit.app/f/xqwntvew6f", {
-                method: "POST",
-                headers: { "Content-Type": "application/json", Accept: "application/json" },
-                body: JSON.stringify({ name: "Ada", email: "ada@example.com", message: "Hi!" }),
-            });
-            const data = await res.json(); // { ok: true, id: "…" } or { ok: false, error: { code, message } }
-            form.addEventListener("submit", async function(event) {
-                event.preventDefault();
-                const formData = new FormData(form);
-                try {
-                    const response = await fetch(form.action, {
-                        method: "POST",
-                        body: formData,
-                        headers: {
-                            "Accept": "application/json"
-                        }
-                    });
-                    if (response.ok) {
-                        everSubmit=true;
-                        alert("提交成功！");
-                        form.reset();
-                    } else {
-                        alert("提交失敗，請再試一次。");
-                    }
-                } catch (error) {
-                    alert("傳送失敗，請檢查網路或服務設定。");
-                    console.error(error);
-                }
-            });
-            fetch("https://formsubmit.co/ajax/luoyiru467@gmail.com", {
-                everSubmit=true;
-                method: "POST",
-                headers: { 
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                    'Accept': 'application/x-www-form-urlencoded'
-                },
-                body: JSON.stringify({
-                    class: Class,
-                    number:number,
-                    story:story,
-                    picture:profile_pic
-                })
-            })
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.log(error));*/
             function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
             }
